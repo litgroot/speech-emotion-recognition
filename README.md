@@ -44,7 +44,6 @@ speech-emotion-recognition/
 
 Run the following inside Google Colab (recommended) or a local environment:
 
-```bash
 pip install numpy pandas librosa noisereduce audiomentations tensorflow scikit-learn matplotlib
 
 ---
