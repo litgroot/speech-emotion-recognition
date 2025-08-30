@@ -47,7 +47,7 @@ Run the following inside Google Colab (recommended) or a local environment:
 ```bash
 pip install numpy pandas librosa noisereduce audiomentations tensorflow scikit-learn matplotlib
 
-▶️ Usage
+## ▶️ Usage
 
 1. Place the CREMA-D dataset (.wav files) inside the data/ directory.
 Example filename: 1001_DFA_ANG_XX.wav
@@ -65,7 +65,7 @@ Confusion matrix plots
 
 Classification reports (per dataset)
 
-📊 Example Results
+## 📊 Example Results
 Original Dataset
 
 Accuracy: ~44.8%
@@ -80,8 +80,7 @@ Accuracy: ~46.4%
 
 Confusion matrices and full classification reports are available in the results/ directory.
 
-📑 Dataset
-
+## 📑 Dataset
 
 This project uses the [CREMA-D Dataset](https://www.kaggle.com/datasets/ejlok1/cremad) from Kaggle.
 
@@ -94,7 +93,7 @@ Please download it manually from Kaggle and place the `.wav` files into:
 
 
 
-✨ Key Features
+## ✨ Key Features
 
 Audio preprocessing with noise reduction
 
@@ -106,7 +105,7 @@ CNN architecture with Conv1D layers
 
 Comparative evaluation of Original, Augmented, and Combined datasets
 
-📌 Notes
+## 📌 Notes
 
 This project does not save trained models (.h5) or perform inference.
 
@@ -114,7 +113,7 @@ The focus is on training & evaluation for research purposes only.
 
 All experiments are reproducible via main.py.
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 Dede Septa Maulana Fajar
 Undergraduate Thesis Project – 2025
