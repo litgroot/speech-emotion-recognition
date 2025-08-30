@@ -47,6 +47,8 @@ Run the following inside Google Colab (recommended) or a local environment:
 ```bash
 pip install numpy pandas librosa noisereduce audiomentations tensorflow scikit-learn matplotlib
 
+---
+
 ## ▶️ Usage
 
 1. Place the CREMA-D dataset (.wav files) inside the data/ directory.
